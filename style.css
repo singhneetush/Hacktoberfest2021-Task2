@@ -1,8 +1,75 @@
-h1{
-    text-align: center;
-    color:red;
+*{
+    margin: 0;
+    padding: 0;
+    
 }
 
-p{
-    font-size: 10px;
+.super-container{
+    background-color: rgba(220, 220, 220, 0.247);
+    
+    border: 1px solid snow;
+    box-shadow: yellow;
+}
+
+
+
+.heading{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color:purple;
+    font-size: 100px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+}
+
+.container{
+    /* background-color: rgba(0, 165, 206, 0.137);
+    border: 1px solid palevioletred; */
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgba(110, 35, 22, 0.438);
+    
+}
+
+.purple{
+    display: inline-block;
+}
+
+#name-purple{
+    color: blue;
+    display: inline-block;
+}
+
+#portrait-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100vh;
+    margin-bottom: 30px;
+}
+
+#country{
+    font-family: italic;
+    font-size: 30px;
+    
+}
+
+
+
+#country > .orange{
+    color: orange;
+    font-size: 30px;
+}
+
+#country > .white{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#country > .green{
+    color: green;
+    font-size: 30px;
 }
